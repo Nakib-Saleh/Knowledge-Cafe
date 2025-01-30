@@ -26,7 +26,7 @@ const Blog = ({
       <img src={cover} alt="Blog cover" className="w-full mb-7 rounded-2xl" />
       <div className="flex justify-between">
         <div className=" flex">
-          <img className="w-1/2 h-1/2 md:w-16 rounded-full" src={author_img} alt="Author" />
+          <img className="w-1/2 h-1/2 md:w-16 md:h-16 rounded-full" src={author_img} alt="Author" />
           <div className="md:ml-6">
             <h3 className="text-2xl font-bold">{author}</h3>
             <p className="text-xl text-gray-400">{posted_date}</p>
